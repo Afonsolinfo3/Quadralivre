@@ -1,0 +1,20 @@
+<svg viewBox="0 0 600 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Faixa de sinalização Quadra Livre presa à cerca">
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#03110A"/>
+      <stop offset="100%" stop-color="#0A2216"/>
+    </linearGradient>
+    <pattern id="fence2" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="18" stroke="#4ADE80" stroke-opacity="0.16" stroke-width="1"/>
+      <line x1="0" y1="0" x2="18" y2="0" stroke="#4ADE80" stroke-opacity="0.16" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="420" fill="url(#sky4)"/>
+  <rect width="600" height="420" fill="url(#fence2)"/>
+  <rect x="60" y="120" width="480" height="200" rx="6" fill="#0E2818" stroke="#4ADE80" stroke-opacity="0.45" stroke-width="2"/>
+  <text x="90" y="205" font-family="Arial Black, Arial, sans-serif" font-size="46" font-weight="900" fill="#F4F7F2">QUADRA</text>
+  <text x="90" y="260" font-family="Arial Black, Arial, sans-serif" font-size="46" font-weight="900" fill="#5CFF7E">LIVRE</text>
+  <text x="380" y="180" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#F4F7F2" opacity="0.85">MAIS QUE</text>
+  <text x="380" y="200" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#F4F7F2" opacity="0.85">ESPORTE,</text>
+  <text x="380" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#5CFF7E">CONEXÃO</text>
+</svg>

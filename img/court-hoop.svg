@@ -1,0 +1,28 @@
+<svg viewBox="0 0 600 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Quadra com cesta de basquete ao entardecer">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B2A1C"/>
+      <stop offset="100%" stop-color="#194A2F"/>
+    </linearGradient>
+    <linearGradient id="floor2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#123321"/>
+      <stop offset="100%" stop-color="#0A2216"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="420" fill="url(#sky2)"/>
+  <rect y="230" width="600" height="190" fill="url(#floor2)"/>
+  <g stroke="#B9F6C8" stroke-opacity="0.5" stroke-width="2.5" fill="none">
+    <path d="M40 410 L260 235"/>
+    <path d="M560 410 L340 235"/>
+    <path d="M150 340 Q300 305 460 340"/>
+  </g>
+  <!-- hoop pole -->
+  <rect x="472" y="120" width="8" height="140" fill="#0A2013"/>
+  <rect x="440" y="118" width="60" height="6" fill="#0A2013"/>
+  <rect x="440" y="124" width="8" height="40" fill="#F4F7F2" opacity="0.85"/>
+  <circle cx="444" cy="164" r="16" fill="none" stroke="#5CFF7E" stroke-width="3"/>
+  <!-- net -->
+  <path d="M430 168 L458 168 L452 190 L436 190 Z" fill="none" stroke="#F4F7F2" stroke-opacity="0.6"/>
+  <!-- sun glow -->
+  <circle cx="120" cy="90" r="60" fill="#5CFF7E" opacity="0.18"/>
+</svg>

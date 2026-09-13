@@ -1,0 +1,32 @@
+<svg viewBox="0 0 1600 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Silhuetas caminhando em direção à quadra iluminada">
+  <defs>
+    <linearGradient id="sky6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#03110A"/>
+      <stop offset="100%" stop-color="#0A2216"/>
+    </linearGradient>
+    <radialGradient id="glow6" cx="50%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#DFFFEA" stop-opacity="0.85"/>
+      <stop offset="45%" stop-color="#8CFFB0" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#8CFFB0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="fence3" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="20" stroke="#4ADE80" stroke-opacity="0.12" stroke-width="1"/>
+      <line x1="0" y1="0" x2="20" y2="0" stroke="#4ADE80" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="700" fill="url(#sky6)"/>
+  <rect y="80" width="1600" height="400" fill="url(#fence3)"/>
+  <circle cx="800" cy="140" r="340" fill="url(#glow6)"/>
+  <rect x="796" y="60" width="8" height="220" fill="#0A2013"/>
+  <!-- ground -->
+  <rect y="560" width="1600" height="140" fill="#081A11"/>
+  <!-- adult 1 -->
+  <path d="M700 700 C700 590 725 555 745 555 C765 555 790 590 790 700 Z" fill="#03100A"/>
+  <circle cx="745" cy="540" r="24" fill="#03100A"/>
+  <!-- adult 2 -->
+  <path d="M810 700 C810 580 838 540 862 540 C886 540 914 580 914 700 Z" fill="#03100A"/>
+  <circle cx="862" cy="524" r="26" fill="#03100A"/>
+  <!-- child -->
+  <path d="M780 700 C780 640 795 618 807 618 C819 618 834 640 834 700 Z" fill="#03100A"/>
+  <circle cx="807" cy="610" r="15" fill="#03100A"/>
+</svg>

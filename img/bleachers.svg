@@ -1,0 +1,36 @@
+<svg viewBox="0 0 600 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Corredor com arquibancada iluminada à noite">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#03110A"/>
+      <stop offset="100%" stop-color="#0C2A1B"/>
+    </linearGradient>
+    <radialGradient id="glow3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DFFFEA" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#8CFFB0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="420" fill="url(#sky3)"/>
+  <!-- perspective walkway -->
+  <polygon points="220,420 380,420 320,140 280,140" fill="#132F1F"/>
+  <!-- roof line -->
+  <polygon points="150,180 450,180 340,120 260,120" fill="#0A2013" opacity="0.8"/>
+  <!-- bleacher rows left -->
+  <g fill="#0E2818" stroke="#2F6B41" stroke-width="1">
+    <rect x="40" y="330" width="170" height="14"/>
+    <rect x="55" y="300" width="150" height="14"/>
+    <rect x="70" y="270" width="130" height="14"/>
+    <rect x="85" y="240" width="110" height="14"/>
+  </g>
+  <!-- bleacher rows right -->
+  <g fill="#0E2818" stroke="#2F6B41" stroke-width="1">
+    <rect x="390" y="330" width="170" height="14"/>
+    <rect x="395" y="300" width="150" height="14"/>
+    <rect x="400" y="270" width="130" height="14"/>
+    <rect x="405" y="240" width="110" height="14"/>
+  </g>
+  <!-- lamps -->
+  <circle cx="300" cy="150" r="90" fill="url(#glow3)"/>
+  <rect x="296" y="140" width="8" height="18" fill="#DFFFEA"/>
+  <circle cx="120" cy="230" r="55" fill="url(#glow3)" opacity="0.7"/>
+  <circle cx="480" cy="230" r="55" fill="url(#glow3)" opacity="0.7"/>
+</svg>

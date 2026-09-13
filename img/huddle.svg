@@ -1,0 +1,34 @@
+<svg viewBox="0 0 600 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Silhueta de time em roda antes do jogo">
+  <defs>
+    <linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B2A1C"/>
+      <stop offset="100%" stop-color="#04150D"/>
+    </linearGradient>
+    <radialGradient id="glow5" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#DFFFEA" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#8CFFB0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="460" fill="url(#sky5)"/>
+  <circle cx="300" cy="90" r="180" fill="url(#glow5)"/>
+  <!-- ground -->
+  <rect y="380" width="600" height="80" fill="#081A11"/>
+  <!-- huddle silhouettes: 5 people, arms over shoulders -->
+  <g fill="#04120B">
+    <path d="M120 380 C120 300 150 270 175 270 C200 270 230 300 230 380 Z"/>
+    <path d="M215 380 C215 290 250 255 280 255 C310 255 345 290 345 380 Z"/>
+    <path d="M330 380 C330 285 368 250 300 250 C300 250 300 250 300 250"/>
+    <path d="M330 380 C330 285 368 250 400 250 C432 250 470 285 470 380 Z"/>
+    <path d="M395 380 C395 300 425 270 450 270 C475 270 505 300 505 380 Z"/>
+    <circle cx="175" cy="255" r="26"/>
+    <circle cx="280" cy="238" r="28"/>
+    <circle cx="400" cy="233" r="29"/>
+    <circle cx="450" cy="255" r="26"/>
+  </g>
+  <!-- connecting arms as soft shapes -->
+  <g fill="#04120B" opacity="0.9">
+    <rect x="195" y="290" width="55" height="16" rx="8"/>
+    <rect x="300" y="278" width="60" height="16" rx="8"/>
+    <rect x="405" y="290" width="55" height="16" rx="8"/>
+  </g>
+</svg>
